@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class array {
+public class arrayobj {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        System.out.println("enter the length oof an array ");
