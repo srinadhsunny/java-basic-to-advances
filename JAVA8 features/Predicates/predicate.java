@@ -6,7 +6,7 @@ public class predicate{
         System.out.println("enter an int to check");
         int n = sc.nextInt();
         sc.nextLine();
-        Predicate <Integer> gt = (num)->(n>10);
+        Predicate <Integer> gt = (num)->(num>10);
         System.out.println(gt.test(n));
         System.out.println("enter the String to check");
         String s = sc.nextLine();
