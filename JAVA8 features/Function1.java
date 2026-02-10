@@ -14,6 +14,11 @@ public class Function1 {
         String s=sc.nextLine();
 
         System.out.println("thelength is  "+ f1.apply(s));
+        Function<Integer, String> message = i -> "Result is: " + i;
+        
+        // Chaining: Square it AND THEN turn it into a String
+        System.out.println(f.andThen(message).apply(5)); 
+        // Output: Result is: 25
 
     }
 }
